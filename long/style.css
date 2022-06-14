@@ -1,0 +1,18 @@
+svg{
+    border: 1px solid rgb(204, 204, 204);
+    background-color: rgb(223, 255, 205);
+}
+
+.axis .domain{
+    stroke:none;
+}
+
+.x line{
+    stroke: blanchedalmond;
+}
+.tooltip{
+    position: fixed;
+    opacity: 0;
+    pointer-events: none; /*避免出現連結或其他預設行為*/
+    }
+    
